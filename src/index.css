@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../public/images/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbar{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.959);
+  box-shadow: 0 10px 11px 5px rgba(14, 1, 1, 0.37);
+  padding: 10px;
+  color: white;
+}
+
+.center{
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.card{
+ 
+ margin: auto;
+ width: 50%;
+ border: 3px solid rgba(49, 0, 128, 0.701);
+ padding: 80px;
+ display: flex;
+ justify-content:space-between;
+ margin-right: auto;
+ background-color: rgba(245, 245, 245, 0.075);
+}
+.content--content,.content--type{
+  text-align: right;
+  color: aliceblue;
+  font-size: 20px;
+
+}
+button{
+ background-color: black;
+ color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 500ms;
+  margin:10px;
+}
+button:hover{
+  background-color: aliceblue;
+  color: black;
+}
+.hand{
+  width: 350px;
 }
